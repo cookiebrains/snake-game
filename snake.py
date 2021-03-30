@@ -23,7 +23,7 @@ class Snake:
         new_segment.color("white")
         new_segment.penup()
         new_segment.goto(position)
-        new_segment.speed('fast')
+        new_segment.speed('normal')
         self.segments.append(new_segment)
 
     def extend(self):
